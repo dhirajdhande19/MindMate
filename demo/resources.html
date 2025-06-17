@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MindMate - Resources</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f6fff8;
+        color: #1f2937;
+        padding: 2rem;
+      }
+
+      /* h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      } */
+
+      .hero {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 7rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      .hero-text h2 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+
+      .hero-text p {
+        font-size: 1.5rem;
+      }
+
+      .hero img {
+        width: 450px;
+        border-radius: 8px;
+      }
+
+      .categories {
+        margin-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+
+      .categories button {
+        padding: 0.5rem 1.3rem;
+        background-color: #a7f3d0;
+        border: none;
+        border-radius: 20px;
+        color: #065f46;
+        font-weight: 500;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .categories button:hover {
+        background-color: #6ee7b7;
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+      }
+
+      .card {
+        background-color: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease;
+      }
+
+      .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        padding: 1rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card-title {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-text {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        color: #374151;
+      }
+
+      .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .card-footer button {
+        background-color: #a7f3d0;
+        color: #065f46;
+        border: none;
+        padding: 0.4rem 0.8rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        font-weight: bold;
+      }
+
+      /* Hover effect on the entire card */
+      .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        transition: all 0.3s ease;
+      }
+
+      /* Hover effect on the Read More button */
+      .card-footer button:hover {
+        background-color: #6ee7b7;
+        transform: scale(1.05);
+        transition: all 0.25s ease;
+      }
+
+      .cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e0f2fe;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .cta-text {
+        font-size: 2.7rem;
+        font-weight: bold;
+        color: #1e40af;
+        margin-bottom: 1rem;
+        margin-top: -5.5rem;
+        margin-left: 10rem;
+      }
+
+      .cta button {
+        padding: 0.6rem 1rem;
+        background-color: #a7f3d0;
+        color: #065f46;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: all 0.25s ease;
+        margin-left: 17rem;
+      }
+      .cta button:hover {
+        transform: scale(1.05);
+      }
+
+      .arrow {
+        position: absolute;
+        top: 2rem; /* adjust as needed */
+        left: 26rem; /* adjust as needed */
+        width: 23rem; /* size of arrow */
+        transform: rotate(25deg); /* rotate if needed */
+        z-index: 1;
+      }
+
+      @media (max-width: 640px) {
+        .hero {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .cta {
+          flex-direction: column;
+          text-align: center;
+          gap: 1rem;
+        }
+      }
+      /* ---------- Responsive Tweaks ---------- */
+      /* @media (max-width: 1024px) {
+        .cta {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .cta-text {
+          font-size: 2rem;
+        }
+
+        .cta button {
+          margin: 0;
+        }
+
+        .arrow {
+          position: static;
+          transform: none;
+          width: 120px;
+          margin-top: -1rem;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .hero {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .cta-text {
+          font-size: 1.8rem;
+        }
+
+        .arrow {
+          width: 100px;
+          margin-top: -0.5rem;
+        }
+
+        .cta img {
+          width: 100%;
+          max-width: 300px;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Resources Page</h1> -->
+
+    <div class="hero">
+      <div class="hero-text">
+        <h2>Wellness Resources</h2>
+        <p>
+          "Small steps, deep breaths. <br />
+          You’re not alone on this journey — we’re here to walk with you."
+        </p>
+      </div>
+      <img src="../Image src/resources/hero-section.jpg" alt="Wellness Image" />
+    </div>
+
+    <div class="categories">
+      <button>All</button>
+      <button>Feeling Low</button>
+      <button>Anxiety</button>
+      <button>Overthinking</button>
+      <button>Loneliness</button>
+      <button>Burnout</button>
+      <button>Stress Relief</button>
+      <button>Stories</button>
+      <button>Focus</button>
+      <button>Productivity</button>
+      <button>Motivation</button>
+      <button>Self-Esteem</button>
+      <button>Peace</button>
+    </div>
+
+    <div class="card-grid">
+      <!-- Repeat this card for each resource -->
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../Image src/resources/post-img.jpg" alt="Resource Image" />
+        <div class="card-body">
+          <div class="card-title">Anxiety Isn’t You — It’s a Signal</div>
+          <div class="card-text">
+            You're not broken — your mind's just overwhelmed. Let's slow it down
+            together.
+          </div>
+          <div class="card-footer">
+            <span>2 min</span>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat 5 more cards as needed -->
+    </div>
+
+    <div class="cta">
+      <div>
+        <div class="cta-text">Feeling low?</div>
+        <img
+          id="arrow-img"
+          src="../Image src/arrow-image.png"
+          alt="arrow-image"
+          class="arrow"
+        />
+      </div>
+      <button>Journal Something</button>
+      <img
+        src="../Image src/resources/feeling-low.jpg"
+        alt="Feeling Low"
+        width="400"
+      />
+    </div>
+  </body>
+</html>
