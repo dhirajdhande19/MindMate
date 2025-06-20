@@ -1,61 +1,67 @@
 # 🧠 MindMate
 
-MindMate is a mental wellness web app that helps students track moods, 
-journal thoughts, and access mental health resources — supporting growth 💪, 
-balance 🌿, and emotional well-being 😊 every day.
+**MindMate** is a mental wellness web app designed to help students reflect, recharge, and regain emotional balance.
+It offers tools to journal thoughts, access wellness resources, and build daily habits — promoting growth 💪, balance 🌿, and well-being 😊.
 
 ---
 
 ## 🚀 Features
 
-- 📓 **Journal Entries** – Privately write and reflect on your thoughts.
-- 📚 **Wellness Resources** – Curated content to support mental health and well-being.
-- ✅ **Daily Tasks** – Set daily to-do goals to build healthy habits.
-- 🆘 **Help from Professionals** – One click to reach psychiatrists, psychologists, therapists, and more.
-- 💬 **Optional Peer Chat** – *(Coming soon)* Connect safely with fellow students.
-- 🌈 **Mood Tracker** – *(Optional)* Log moods and visualize emotional trends with graphs.
+- 📓 **Journal Entries** – Privately reflect and write about your day.
+- 📚 **Wellness Resources** – Curated articles, videos, and self-help guides.
+- ✅ **Daily Tasks** – Set simple goals and healthy habits.
+- 🆘 **Reach Out for Help** – Easily find psychiatrists, therapists, or support lines.
+- 💬 **Peer Chat** – _(Coming soon)_ Connect safely with fellow students.
+- 🌈 **Mood Tracker** – _(Coming soon)_ Track your emotions and visualize your progress.
+
+---
+
+## 🎯 Built For
+
+This project is submitted under the **Beginner Division** of **Hack4Health 2025**.
+It focuses on a clean, functional **frontend** experience using HTML, CSS, and JavaScript.
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend**  
-- HTML, CSS, JavaScript  
-- EJS (for templating)
+**Frontend Only (Hackathon Version)**
 
-**Backend**  
-- Node.js  
-- Express.js  
-- MongoDB  
-- Passport.js (authentication)
+- HTML
+- CSS
+- JavaScript
+
+> _Note: A fullstack version using Node.js, Express, MongoDB, and Passport.js is under active development and will be released post-hackathon._
 
 ---
 
-## 👥 Contributors
+## 👥 Team Member Roles & Responsibilities
 
-- **Dhiraj** – Backend Developer & Project Lead  
-- **Avishkar** – Frontend Developer  
-- **Sahil** – Frontend Developer  
+_This section will be updated after task distribution._
 
 ---
 
 ## 📌 Project Status
 
-✅ MVP under development as part of **Hack4Health 2025**  
-🚧 Additional features and refinements in progress
+🚧 Frontend development in progress  
+📄 Research draft, user flow, and feature plan under development  
+🧪 Preparing final prototype and presentation for Hack4Health 2025 submission  
+📦 Backend development planned post-hackathon (for fullstack GitHub release)
 
 ---
 
 ## 📷 Sneak Peek
 
-*Coming soon*
+_Coming soon – project screenshots and demo video_
 
 ---
 
 ## 🧾 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-> *“Your mental health is a priority. Your happiness is essential. Your self-care is a necessity.” – MindMate*
+> _“Your mental health is a priority. Your happiness is essential. Your self-care is a necessity.” – MindMate_
+
+---
