@@ -1,0 +1,22 @@
+body {
+  background-color: #f4f9ff;
+  font-family: "Segoe UI", sans-serif;
+}
+.section {
+  padding: 40px 20px;
+}
+.quote-box {
+  background-color: #e8f0fe;
+  border-left: 5px solid #4a90e2;
+  padding: 20px;
+  border-radius: 8px;
+}
+.footer {
+  background-color: #e0e0e0;
+  padding: 20px 0;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
