@@ -1,0 +1,47 @@
+body {
+  background-color: #f9fdfb;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+.hero-img {
+  border-radius: 10px;
+  max-height: 420px;
+  object-fit: cover;
+  width: 100%;
+}
+.author-badge {
+  background-color: #e6fffa;
+  color: #0f766e;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+}
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.post-description {
+  font-size: 1.1rem;
+  color: #374151;
+}
+.post-body {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+.post-body p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+}
+.post-body h5 {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+.highlight {
+  background-color: #eefbf5;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #10b981;
+  margin: 1rem 0;
+}

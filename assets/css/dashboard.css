@@ -1,0 +1,27 @@
+body {
+  background-color: #f7fdfc;
+  font-family: "Segoe UI", sans-serif;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d1fae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #065f46;
+}
+.quote-img {
+  max-width: 150px;
+  border-radius: 10px;
+}
+.goal-item input {
+  margin-right: 10px;
+}
+.goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
