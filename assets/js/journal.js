@@ -8,7 +8,6 @@ fetch("../data/journal.json")
       newPost.classList.add("card");
     //   newPost.classList.add(`${post.categories[1]}`);
       const imgSrc = `${post.image}`;
-      console.log(post.image);
       newPost.innerHTML = `
         
         <div class="img-section">

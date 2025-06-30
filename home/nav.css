@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 2px solid #e5e1e1;
+  padding: 0 2rem;
+  height: 70px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.logo h3 {
+  font-family: 'Huninn', sans-serif;
+  font-size: 1.5rem;
+  color: #232325;
+}
+
+nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #7a7a7c;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #2469e9;
+}
+
+/* Hide checkbox and mobile icons by default */
+#nav-toggle,
+.menu-btn,
+.close-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-btn,
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  #nav-toggle:checked ~ .menu-btn {
+    display: none;
+  }
+
+  #nav-toggle:checked ~ .close-btn {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    transform: translateY(-150%);
+  }
+
+  #nav-toggle:checked ~ nav {
+    transform: translateY(0);
+  }
+
+  .nav-links {
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+  }
+}

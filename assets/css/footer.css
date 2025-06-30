@@ -14,7 +14,7 @@ footer{
 }
 
 footer .heading p{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0.5rem;
 }
 
@@ -27,7 +27,7 @@ footer .links{
 
 footer .links a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer .description p{
