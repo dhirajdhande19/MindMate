@@ -261,7 +261,7 @@ h1 {
   .steps-section .right-arrow {
     display: block;
     position: relative;
-    left:10rem;
+    left:9rem;
     transform: rotate(90deg);
   }
 
