@@ -6,7 +6,7 @@
     border-radius: 15px;
     text-align: center;
     align-items: center;
-    border: 1px solid rgba(40, 79, 100, 0.795);
+    border: none;
     box-shadow: 0 12px 55px #bec0c1f0 ,0 8px 10px #e7ebeb;
 }
 body{
@@ -71,6 +71,7 @@ input[type="password"]{
 }
 h1{
     color: rgb(7, 21, 68);
+     padding-top:1rem;
 }
 button{
     height: 50px;
@@ -81,10 +82,11 @@ button{
     margin-top: 70px;
     color: white;
     font-size: 15px;
-    border: 1px solid rgba(40, 79, 100, 0.795);
-    background-color: rgb(59, 161, 230);
+    border: none;
+    background-color: #0956fd;
+    cursor: pointer;
     &:hover{
-        background-color: rgb(5, 100, 184);
+        background-color: #0a41e9;
     }
 }
 .submit{
@@ -99,6 +101,7 @@ h5{
 a{
     color: rgb(6, 9, 177);
     opacity: 1;
+    text-decoration: none;
 }
 .link{
     margin-top: -5px;
