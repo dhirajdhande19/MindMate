@@ -40,9 +40,9 @@ It focuses on a clean, functional **frontend** experience using HTML, CSS, and J
 
 We are a team of 3 passionate developers collaborating on MindMate:
 
-- **Dhiraj Dhande** – Frontend & Feature Integration
-- **Santosh** – Frontend (Forms & Auth Pages)
-- **Avishkar** – Frontend (UI Components & Journal)
+- [**Dhiraj**](https://github.com/dhirajdhande19) – Frontend & Feature Integration  
+- [**Santosh**](https://github.com/Avishkar1426) – Frontend (Forms & Auth Pages)  
+- [**Avishkar**](https://github.com/Sahilganvir123) – Frontend (UI Components & Journal)
 
 > Each member contributed to planning, designing, and developing different features of the project during Hack4Health 2025.
 
