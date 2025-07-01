@@ -30,14 +30,21 @@ It focuses on a clean, functional **frontend** experience using HTML, CSS, and J
 - HTML
 - CSS
 - JavaScript
-
+- BootStrap
+  
 > _Note: A fullstack version using Node.js, Express, MongoDB, and Passport.js is under active development and will be released post-hackathon._
 
 ---
 
-## 👥 Team Member Roles & Responsibilities
+## 👥 Team Members
 
-_This section will be updated after task distribution._
+We are a team of 3 passionate developers collaborating on MindMate:
+
+- **Dhiraj Dhande** – Frontend & Feature Integration
+- **Santosh** – Frontend (Forms & Auth Pages)
+- **Avishkar** – Frontend (UI Components & Journal)
+
+> Each member contributed to planning, designing, and developing different features of the project during Hack4Health 2025.
 
 ---
 
@@ -53,12 +60,6 @@ _This section will be updated after task distribution._
 ## 📷 Sneak Peek
 
 _Coming soon – project screenshots and demo video_
-
----
-
-## 🧾 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
