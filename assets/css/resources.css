@@ -57,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 0.9rem;
   cursor: pointer;
+  user-select: none;
   transition: 0.3s ease;
 }
 
