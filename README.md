@@ -51,14 +51,8 @@ We are a team of 3 passionate developers collaborating on MindMate:
 ## 📌 Project Status
 
 - 🚀 **Live:** [https://mind-mate-tan.vercel.app](https://mind-mate-tan.vercel.app)  
-- 🚧 **Frontend**: Major features completed.
+- 🚧 **Frontend**: Deployed.
 - 🔧 **Backend**: Development planned after hackathon.
----
-
-## 📷 Sneak Peek
-
-_Coming soon – project screenshots and demo video_
-
 ---
 
 > _“Your mental health is a priority. Your happiness is essential. Your self-care is a necessity.” – MindMate_
