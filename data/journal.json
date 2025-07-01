@@ -1,0 +1,241 @@
+[
+  {
+    "id": 1,
+    "username": "anxious_aurora",
+    "review": "Felt waves of anxiety before a presentation, but grounding techniques and slow breathing calmed me down.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "date": "27/05/2025",
+    "type": "Anxiety"
+  },
+  {
+    "id": 2,
+    "username": "melancholy_moon",
+    "review": "Awoke feeling low, lethargic, disconnected. Journaling helped uncover some hope buried under the heaviness.",
+    "image": "https://images.unsplash.com/photo-1621312877863-f658f3d708df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVsYW5jaG9seV9tb29ufGVufDB8fDB8fHww",
+    "date": "26/05/2025",
+    "type": "Depression"
+  },
+  {
+    "id": 3,
+    "username": "mindful_mist",
+    "review": "Took a 10-minute walking meditation. Listening to the breeze and birds helped soothe my racing thoughts.",
+    "image": "https://plus.unsplash.com/premium_photo-1711181593304-3f37dae865af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWluZGZ1bF9taXN0fGVufDB8fDB8fHww",
+    "date": "25/05/2025",
+    "type": "Mindfulness"
+  },
+  {
+    "id": 4,
+    "username": "grateful_grove",
+    "review": "Noticed small joys today—warm coffee, sunshine on my face—and felt a wave of gratitude sweeping over me.",
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64",
+    "date": "24/05/2025",
+    "type": "Gratitude"
+  },
+  {
+    "id": 5,
+    "username": "stressless_sundown",
+    "review": "Work pile-up weighed me down. I paused, stretched, and walked outside. Felt tension melt away slowly.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "date": "23/05/2025",
+    "type": "Stress"
+  },
+  {
+    "id": 6,
+    "username": "resilient_rain",
+    "review": "I had a panic attack at the grocery store, used breathing and grounding. Proud I handled it calmly.",
+    "image": "https://images.unsplash.com/photo-1601116780183-d2e80a0bd47f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc2lsaWVudF9yYWlufGVufDB8fDB8fHww",
+    "date": "22/05/2025",
+    "type": "Panic Attack"
+  },
+  {
+    "id": 7,
+    "username": "hopeful_harbor",
+    "review": "Therapy session brought clarity and new coping strategies. Felt lighter after unloading my thoughts and fears.",
+    "image": "https://images.unsplash.com/photo-1630373389042-f41ce7de58ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGhvcGVmdWxfaGFyYm9yfGVufDB8fDB8fHww",
+    "date": "21/05/2025",
+    "type": "Recovery"
+  },
+  {
+    "id": 8,
+    "username": "connection_cloud",
+    "review": "Spent evening with a close friend. Laughing freely reminded me how meaningful human connection truly is.",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "date": "20/05/2025",
+    "type": "Connection"
+  },
+  {
+    "id": 9,
+    "username": "motivated_meadow",
+    "review": "Set achievable goals and completed them. Felt energized and motivated to continue the positive momentum.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "date": "19/05/2025",
+    "type": "Motivation"
+  },
+  {
+    "id": 10,
+    "username": "ptsd_prism",
+    "review": "Nighttime anxiety returned and I struggled to sleep. Used journaling and calm music to soothe my mind.",
+    "image": "https://images.unsplash.com/photo-1667036679091-6da384768075?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHB0c2RfcHJpc218ZW58MHx8MHx8fDA%3D",
+    "date": "18/05/2025",
+    "type": "PTSD"
+  },
+  {
+    "id": 11,
+    "username": "selfcare_silk",
+    "review": "Took a long bath with candles and essential oils. It felt nurturing and helped reduce tension.",
+    "image": "https://images.unsplash.com/photo-1642773472991-9d5151fbd83c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNlbGZjYXJlX3NpbGt8ZW58MHx8MHx8fDA%3D",
+    "date": "17/05/2025",
+    "type": "Self-Care"
+  },
+  {
+    "id": 12,
+    "username": "mindchart_maple",
+    "review": "Distracted mind led to obsessive thoughts. I reframed them with journaling and brief meditation.",
+    "image": "https://images.unsplash.com/photo-1518176258769-f227c798150e",
+    "date": "16/05/2025",
+    "type": "OCD"
+  },
+  {
+    "id": 13,
+    "username": "calm_canyon",
+    "review": "Went without phone for an afternoon. The silence felt strange but peaceful, recalibrated my attention.",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174",
+    "date": "15/05/2025",
+    "type": "Self-Care"
+  },
+  {
+    "id": 14,
+    "username": "uplifted_umbrella",
+    "review": "Midday slump hit. Listening to uplifting podcast boosted mood and helped me push through the haze.",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    "date": "14/05/2025",
+    "type": "Wellbeing"
+  },
+  {
+    "id": 15,
+    "username": "steady_stream",
+    "review": "Rainy day journaling brought reflection. Felt calm and a touch melancholic, but accepted it rather than resisting.",
+    "image": "https://images.unsplash.com/photo-1496309732348-3627f3f040ee",
+    "date": "13/05/2025",
+    "type": "Mood Swing"
+  },
+  {
+    "id": 16,
+    "username": "affirmed_alder",
+    "review": "Practiced positive affirmations out loud. I felt a slight shift—more grounded and less critical of myself.",
+    "image": "https://images.unsplash.com/photo-1638005118328-370371699bb8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGFmZmlybWVkX2FsZGVyfGVufDB8fDB8fHww",
+    "date": "12/05/2025",
+    "type": "Motivation"
+  },
+  {
+    "id": 17,
+    "username": "quiet_quartz",
+    "review": "Silent evening felt soothing. No pressure to perform or talk—just present with myself.",
+    "image": "https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c",
+    "date": "11/05/2025",
+    "type": "Self-Awareness"
+  },
+  {
+    "id": 18,
+    "username": "grateful_glade",
+    "review": "Volunteer activity made me feel purposeful and grateful for small acts of kindness shared with strangers.",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "date": "10/05/2025",
+    "type": "Gratitude"
+  },
+  {
+    "id": 19,
+    "username": "healing_horizon",
+    "review": "Meditation helped lighten obsessive thoughts and made the day feel softer than yesterday.",
+    "image": "https://plus.unsplash.com/premium_photo-1681399980833-190c31147076?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhlYWxpbmdfaG9yaXpvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "date": "09/05/2025",
+    "type": "OCD"
+  },
+  {
+    "id": 20,
+    "username": "reflective_river",
+    "review": "Felt true peace journaling by a window. Rain was soothing, and writing gave clarity.",
+    "image": "https://plus.unsplash.com/premium_photo-1748219529308-6887e7918b53?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVmbGVjdGl2ZV9yaXZlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "date": "08/05/2025",
+    "type": "Mindfulness"
+  },
+  {
+    "id": 21,
+    "username": "soothing_sage",
+    "review": "Evening yoga gave warmth and release to my tight muscles. My mind felt lighter afterwards.",
+    "image": "https://images.unsplash.com/photo-1509223197845-458d87318791",
+    "date": "07/05/2025",
+    "type": "Self-Care"
+  },
+  {
+    "id": 22,
+    "username": "balanced_birch",
+    "review": "Therapy breakthrough today—realizing my worth beyond productivity made me feel more stable and hopeful.",
+    "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    "date": "06/05/2025",
+    "type": "Recovery"
+  },
+  {
+    "id": 23,
+    "username": "anxious_ash",
+    "review": "Heart racing mid-conversation. Paused and focused on breath—heartbeat settled over time.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "date": "05/05/2025",
+    "type": "Anxiety"
+  },
+  {
+    "id": 24,
+    "username": "depressed_dahlia",
+    "review": "Nothing felt right today. Journaling helped me put fragmented thoughts into words, which felt soothing.",
+    "image": "https://plus.unsplash.com/premium_photo-1690418709056-fd0f36e2eb45?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVwcmVzc2VkX2RhaGxpYXxlbnwwfHwwfHx8MA%3D%3D",
+    "date": "04/05/2025",
+    "type": "Depression"
+  },
+  {
+    "id": 25,
+    "username": "serene_sequoia",
+    "review": "Sketched a tree today. Creating something felt like therapy and helped distract my racing thoughts.",
+    "image": "https://images.unsplash.com/photo-1498079022511-d15614cb1c02",
+    "date": "03/05/2025",
+    "type": "Stress"
+  },
+  {
+    "id": 26,
+    "username": "uplifted_unity",
+    "review": "Group walk around the park brightened my mood. Shared laughter put a smile on my face.",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+    "date": "02/05/2025",
+    "type": "Connection"
+  },
+  {
+    "id": 27,
+    "username": "motivated_marsh",
+    "review": "Set a small goal and smashed it—felt proud and capable of more than I thought.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "date": "01/05/2025",
+    "type": "Motivation"
+  },
+  {
+    "id": 28,
+    "username": "ptsd_pearl",
+    "review": "Journaled through a flashback. It felt painful but less chaotic when I named and framed it.",
+    "image": "https://images.unsplash.com/photo-1665248159849-14449cb5edff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHRzZF9wZWFybHxlbnwwfHwwfHx8MA%3D%3D",
+    "date": "30/04/2025",
+    "type": "PTSD"
+  },
+  {
+    "id": 29,
+    "username": "calm_cove",
+    "review": "Meditation before bed gave me a soft, peaceful sleep without nighttime racing thoughts.",
+    "image": "https://images.unsplash.com/photo-1518176258769-f227c798150e",
+    "date": "29/04/2025",
+    "type": "Wellbeing"
+  },
+  {
+    "id": 30,
+    "username": "selfcare_satin",
+    "review": "Nourishing meal and reading felt like a hug for my mind. Embraced the slow pace.",
+    "image": "https://images.unsplash.com/photo-1555061686-b7d0f0c4206e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNlbGZjYXJlX3NhdGlufGVufDB8fDB8fHww"
+  }
+]
+

@@ -3,11 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="../assets/images/logo/MindMate-Icon.png" />
+     <link rel="icon" href="../assets/images/logo/MIndMate1.png" />
     <title>MindMate - Resources</title>
     <link rel="stylesheet" href="../assets/css/resources.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../home/nav.css">
   </head>
   <body>
+     <!-- Navbar -->
+    <header class="nav-section">
+    <div class="logo">
+      <img src="../assets/images/logo/MindMate.png" alt="MindMate Logo" />
+      <h3>MindMate</h3>
+    </div>
+    <input type="checkbox" id="nav-toggle" />
+    <label for="nav-toggle" class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <label for="nav-toggle" class="close-btn">
+      <i class="fa-solid fa-xmark"></i>
+    </label>
+    <nav>
+      <ul class="nav-links">
+      <li><a href="../home/home.html">Home</a></li>
+        <li><a href="../pages/resources.html">Resources</a></li>
+        <li><a href="../pages/journal.html">Journal</a></li>
+        <li><a href="../pages/get-help.html">Get Help</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
     <div class="hero">
       <div class="hero-text">
         <h2>Wellness Resources</h2>
@@ -39,6 +64,21 @@
     </div>
 
     <div class="card-grid"></div>
+    <!-- footer -->
+     <footer>
+      <div class="heading">
+        <p>MindMate your space to reflect, breathe, and grow</p>
+      </div>
+      <div class="links">
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Private Policy</a>
+        <a href="https://github.com/dhirajdhande19/MindMate">Github</a>
+      </div>
+      <div class="description">
+        <p>build with hart by Team MindMate at Hack4Health 2025</p>
+      </div>
+    </footer>
     <script src="../assets/js/resources.js"></script>
   </body>
 </html>

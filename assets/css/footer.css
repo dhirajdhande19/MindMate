@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #e2e2e2;
+    height:150px;
+}
+
+footer .heading p{
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+footer .links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .links a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer .description p{
+    font-size: 10px;
+}
