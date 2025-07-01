@@ -11,12 +11,14 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   background: #f3f3f3;
-  height: 200px;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 footer .heading p {
   font-size: 1.5rem;
   margin-top: 1rem;
+  max-width: 600px;
 }
 
 footer .links {
@@ -24,13 +26,53 @@ footer .links {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
 footer .links a {
   text-decoration: none;
   font-size: 1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+footer .links a:hover {
+  color: #555;
 }
 
 footer .description p {
   font-size: 0.8rem;
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+/* 🔻 Responsive Styling */
+@media (max-width: 768px) {
+  footer .heading p {
+    font-size: 1.2rem;
+  }
+
+  footer .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer .links a {
+    font-size: 0.9rem;
+  }
+
+  footer .description p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .heading p {
+    font-size: 1rem;
+  }
+
+  footer .description p {
+    font-size: 0.7rem;
+  }
 }

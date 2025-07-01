@@ -148,3 +148,7 @@ header {
     margin-top: 1rem;
   }
 }
+
+.mood-select:hover {
+  border-color: #2f5cf1;
+}

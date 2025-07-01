@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="../assets/css/journal.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Navbar -->
@@ -55,15 +62,41 @@
       <section class="form-section">
         <form action="#" class="form">
           <h2>Add Journal</h2>
-          <label for="title"><span>*</span>Title</label><br />
-          <input type="text" id="title" /><br /><br />
-          <label for="description"><span>*</span>description</label><br />
-          <textarea id="description" rows="4" cols="30"></textarea><br />
-          <button>Add</button>
+
+          <!-- Mood Picker -->
+          <label for="mood"><span>*</span> How are you feeling today?</label
+          ><br />
+          <select id="mood" class="mood-select">
+            <option value="">Select your mood</option>
+            <option value="😊">😊 Happy</option>
+            <option value="😐">😐 Neutral</option>
+            <option value="😔">😔 Sad</option>
+            <option value="😠">😠 Angry</option>
+            <option value="😵">😵 Overwhelmed</option></select
+          ><br /><br />
+
+          <!-- Title Input -->
+          <label for="title"><span>*</span> Title</label><br />
+          <input
+            type="text"
+            id="title"
+            placeholder="e.g. A tough day, but I made it"
+          /><br /><br />
+
+          <!-- Description -->
+          <label for="description"><span>*</span> Description</label><br />
+          <textarea
+            id="description"
+            rows="4"
+            cols="30"
+            placeholder="Write your thoughts here..."
+          ></textarea
+          ><br />
+
+          <button type="submit">Add</button>
         </form>
       </section>
     </header>
-
     <!-- card section -->
     <section class="card-section"></section>
 
