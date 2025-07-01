@@ -4,39 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="../assets/images/logo/MIndMate1.png" />
-    <title>Get Help | MindMate</title>
+    <title>MindMate | Get Help</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../assets/css/get-help.css" />
-    <link rel="stylesheet" href="../home/nav.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
   </head>
   <body>
     <!-- Navbar -->
-     <header class="nav-section">
-    <div class="logo">
-      <img src="../assets/images/logo/MindMate.png" alt="MindMate Logo" />
-      <h3>MindMate</h3>
-    </div>
-    <input type="checkbox" id="nav-toggle" />
-    <label for="nav-toggle" class="menu-btn">
-      <i class="fa-solid fa-bars"></i>
-    </label>
-    <label for="nav-toggle" class="close-btn">
-      <i class="fa-solid fa-xmark"></i>
-    </label>
-    <nav>
-      <ul class="nav-links">
-      <li><a href="../home/home.html">Home</a></li>
-        <li><a href="../pages/resources.html">Resources</a></li>
-        <li><a href="../pages/journal.html">Journal</a></li>
-        <li><a href="../pages/get-help.html">Get Help</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
-    </nav>
-  </header>
+
+    <header class="nav-section">
+      <div class="logo">
+        <a href="/index.html"
+          ><img src="../assets/images/logo/MindMate.png" alt="MindMate Logo"
+        /></a>
+        <a href="/index.html"><h3>MindMate</h3></a>
+      </div>
+      <input type="checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <label for="nav-toggle" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="./resources.html">Resources</a></li>
+          <li><a href="./journal.html">Journal</a></li>
+          <li><a href="./get-help.html">Get Help</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li>
+            <a href="./dashboard.html"
+              ><img
+                id="pfp"
+                src="../assets/images/dashboard/user-pfp.png"
+                alt="pfp"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Immediate Help -->
     <section class="section text-center bg-danger text-white">
@@ -113,7 +130,9 @@
               <div class="card-body text-center">
                 <h5>📝 Journaling</h5>
                 <p class="text-muted">Reflect through guided prompts.</p>
-                <a href="#" class="btn btn-outline-primary">Write</a>
+                <a href="./journal.html" class="btn btn-outline-primary"
+                  >Write</a
+                >
               </div>
             </div>
           </div>
@@ -281,8 +300,7 @@
     </section>
 
     <!-- Footer -->
-
-     <footer>
+    <footer>
       <div class="heading">
         <p>MindMate your space to reflect, breathe, and grow</p>
       </div>
@@ -290,10 +308,15 @@
         <a href="#">About Us</a>
         <a href="#">Contact Us</a>
         <a href="#">Private Policy</a>
-        <a href="https://github.com/dhirajdhande19/MindMate">Github</a>
+        <a
+          href="https://github.com/dhirajdhande19/MindMate"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
+        >
       </div>
       <div class="description">
-        <p>build with hart by Team MindMate at Hack4Health 2025</p>
+        <p>build with &#10084; by Team MindMate at Hack4Health 2025</p>
       </div>
     </footer>
 

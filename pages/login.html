@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/images/logo/MIndMate1.png" />
+    <title>MindMate | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/nav.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <header class="nav-section">
+      <div class="logo">
+        <a href="/index.html"
+          ><img src="../assets/images/logo/MindMate.png" alt="MindMate Logo"
+        /></a>
+        <a href="/index.html"><h3>MindMate</h3></a>
+      </div>
+      <input type="checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <label for="nav-toggle" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="./resources.html">Resources</a></li>
+          <li><a href="./journal.html">Journal</a></li>
+          <li><a href="./get-help.html">Get Help</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li>
+            <a href="./dashboard.html"
+              ><img
+                id="pfp"
+                src="../assets/images/dashboard/user-pfp.png"
+                alt="pfp"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mainBox">
+      <div class="title">
+        <br />
+        <h1>Login</h1>
+      </div>
+      <div class="inpText">
+        <input type="text" placeholder=" Username" required />
+        <i class="fa-regular fa-user"></i>
+      </div>
+      <div class="inpPass">
+        <input type="password" placeholder="Password" id="input" required />
+        <span class="passEye" onclick="pass()">
+          <i class="fa-regular fa-eye-slash"></i>
+        </span>
+      </div>
+      <div class="checkBox">
+        <input type="checkbox" id="check" />
+        <label for="chekc">Remember me</label>
+      </div>
+      <div class="submit">
+        <button>Login</button>
+      </div>
+      <br />
+      <div class="link">
+        <h5>
+          Don't have an account?&nbsp;<a href="../pages/signup.html">Sign Up</a>
+        </h5>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="heading">
+        <p>MindMate your space to reflect, breathe, and grow</p>
+      </div>
+      <div class="links">
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Private Policy</a>
+        <a
+          href="https://github.com/dhirajdhande19/MindMate"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Github</a
+        >
+      </div>
+      <div class="description">
+        <p>build with &#10084; by Team MindMate at Hack4Health 2025</p>
+      </div>
+    </footer>
+    <script src="../assets/js/login.js"></script>
+  </body>
+</html>
