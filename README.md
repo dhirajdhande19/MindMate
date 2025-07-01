@@ -50,11 +50,9 @@ We are a team of 3 passionate developers collaborating on MindMate:
 
 ## 📌 Project Status
 
-🚧 Frontend development in progress  
-📄 Research draft, user flow, and feature plan under development  
-🧪 Preparing final prototype and presentation for Hack4Health 2025 submission  
-📦 Backend development planned post-hackathon (for fullstack GitHub release)
-
+- 🚀 **Live:** [https://mind-mate-tan.vercel.app](https://mind-mate-tan.vercel.app)  
+- 🚧 **Frontend**: Major features completed.
+- 🔧 **Backend**: Development planned after hackathon.
 ---
 
 ## 📷 Sneak Peek
